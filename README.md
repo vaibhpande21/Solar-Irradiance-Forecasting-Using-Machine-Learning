@@ -33,13 +33,13 @@ The final **XGBoost model** achieved a **Test MAPE of 14.53%** (excluding near-z
 ### Target Variable Distribution
 - GHI shows a **right-skewed distribution**: zero values at night, peaks during midday.  
 
-![GHI Distribution](images/ghi_distribution.png)
+![GHI Distribution](charts/ghi_distribution.png)
 
 ### Temporal Patterns
 - Clear **diurnal** and **weekly** patterns.  
 - Highest irradiance in **morning & afternoon**.  
 
-![GHI Temporal Patterns](images/ghi_temporal.png)
+![GHI Temporal Patterns](charts/ghi.png)
 
 ### Feature Relationships
 - Key predictive features:
@@ -47,7 +47,7 @@ The final **XGBoost model** achieved a **Test MAPE of 14.53%** (excluding near-z
   - **Ambient temperature** (positive correlation).
   - **Lagged GHI** (sequential dependency).  
 
-![Correlation Heatmap](images/ghi_correlation.png)
+![Correlation Heatmap](charts/Correlation.png)
 
 ---
 
@@ -94,7 +94,7 @@ Implemented and compared three models:
 ### Time Series Performance
 XGBoost predictions closely follow actual GHI patterns across time.  
 
-![Actual vs Predicted GHI](images/ghi_actual_vs_pred.png)
+![Actual vs Predicted GHI](charts/actual_vs_pred.png)
 
 ---
 
