@@ -72,10 +72,10 @@ Implemented and compared three models:
 ---
 
 ## 📊 Evaluation Method
-- **Custom MAPE** (ignores near-zero nighttime values):  
-  \[
-  \text{MAPE} = \frac{1}{n}\sum_{i \in S} \left|\frac{y_i - \hat{y}_i}{y_i}\right| \times 100, \quad S = \{i: y_i \notin (-1,1)\}
-  \]
+**Custom MAPE** (ignores near-zero nighttime values):
+
+<img src="https://latex.codecogs.com/svg.latex?\text{MAPE}=\frac{1}{n}\sum_{i\in S}\left|\frac{y_i-\hat{y}_i}{y_i}\right|\times100,\quad S=\{i:y_i\notin(-1,1)\}" />
+
 - Additional metrics:
   - **RMSE**
   - **MAE**
@@ -94,7 +94,7 @@ Implemented and compared three models:
 ### Time Series Performance
 XGBoost predictions closely follow actual GHI patterns across time.  
 
-![Actual vs Predicted GHI](charts/actual vs pred.png)
+![Actual vs Predicted GHI](charts/actual_pred.png)
 
 ---
 
@@ -135,8 +135,8 @@ XGBoost predictions closely follow actual GHI patterns across time.
 ## 📦 Usage
 ```bash
 # Clone repository
-git clone https://github.com/your-username/solar-ghi-forecasting.git
-cd solar-ghi-forecasting
+git clone https://github.com/vaibhpande21/Solar-Irradiance-Forecasting-Using-Machine-Learning.git
+cd Solar-Irradiance-Forecasting-Using-Machine-Learning
 
 # Install dependencies
 pip install -r requirements.txt
