@@ -94,7 +94,7 @@ Implemented and compared three models:
 ### Time Series Performance
 XGBoost predictions closely follow actual GHI patterns across time.  
 
-![Actual vs Predicted GHI](charts/actual_vs_pred.png)
+![Actual vs Predicted GHI](charts/actual vs pred.png)
 
 ---
 
