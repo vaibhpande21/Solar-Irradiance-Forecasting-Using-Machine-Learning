@@ -74,7 +74,7 @@ Implemented and compared three models:
 ## 📊 Evaluation Method
 **Custom MAPE** (ignores near-zero nighttime values):
 
-<img src="https://latex.codecogs.com/svg.latex?\text{MAPE}=\frac{1}{n}\sum_{i\in S}\left|\frac{y_i-\hat{y}_i}{y_i}\right|\times100,\quad S=\{i:y_i\notin(-1,1)\}" />
+![MAPE Formula](charts/custom_mape.png)
 
 - Additional metrics:
   - **RMSE**
