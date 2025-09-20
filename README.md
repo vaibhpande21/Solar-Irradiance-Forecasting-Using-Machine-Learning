@@ -94,7 +94,7 @@ Implemented and compared three models:
 ### Time Series Performance
 XGBoost predictions closely follow actual GHI patterns across time.  
 
-![Actual vs Predicted GHI](charts/actual vs pred.png)
+![Actual vs Predicted GHI](charts/actual_pred.png)
 
 ---
 
@@ -135,8 +135,8 @@ XGBoost predictions closely follow actual GHI patterns across time.
 ## 📦 Usage
 ```bash
 # Clone repository
-git clone https://github.com/your-username/solar-ghi-forecasting.git
-cd solar-ghi-forecasting
+git clone https://github.com/vaibhpande21/Solar-Irradiance-Forecasting-Using-Machine-Learning.git
+cd Solar-Irradiance-Forecasting-Using-Machine-Learning
 
 # Install dependencies
 pip install -r requirements.txt
